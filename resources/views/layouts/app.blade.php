@@ -87,29 +87,6 @@
     <script src="{{asset('js/all.js')}}"></script>
     <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('js/main.js')}}"></script>
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyAW_ohzVAZBhheVblBib-AeQVqduft9LpQ",
-          authDomain: "notification-test-1-b5db8.firebaseapp.com",
-          projectId: "notification-test-1-b5db8",
-          storageBucket: "notification-test-1-b5db8.appspot.com",
-          messagingSenderId: "887012869380",
-          appId: "1:887012869380:web:f83c2f5b218a20f7723c51",
-          measurementId: "G-5GKZ04XDE9"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
-      
+   
 </body>
 </html>
