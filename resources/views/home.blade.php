@@ -45,7 +45,7 @@ const firebaseConfig = {
   measurementId: "G-5GKZ04XDE9"
     };
     firebase.initializeApp(firebaseConfig);
-    var messaging = firebase.messaging.isSupported() ? firebase.messaging() : null
+    const messaging = firebase.messaging.isSupported() ? firebase.messaging() : null
 
 
     // const messaging = firebase.messaging();
